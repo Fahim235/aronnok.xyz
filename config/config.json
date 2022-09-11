@@ -1,9 +1,9 @@
 {
   "parameter": {
     "title": "Fahim Bin Faruque",
-    "favicon": "",
-    "logo_dark": "",
-    "logo_light": "",
+    "favicon": "/images/fahim.png",
+    "logo_dark": "/images/fahim.png",
+    "logo_light": "/images/fahim.png",
     "pagination": 6,
     "contact_form_action": "https://airform.io/mehedishariftitas@gmail.com"
   },
