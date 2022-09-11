@@ -1,7 +1,7 @@
 ---
 banner:
   title: Hi, I’m **Fahim Bin Faruque**
-  image: "/images/pic.PNG"
+  image: "/images/fahim.png"
   bio: Behavioral Science, Productivity, Education
   brands: []
 
