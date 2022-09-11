@@ -1,5 +1,5 @@
 ---
-title: Hi, I'm **Mehedi_Sharif**
+title: Hi, I'm Fahim Bin Faruque
 subtitle: About Myself
 image: ''
 layout: about
