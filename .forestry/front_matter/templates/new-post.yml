@@ -14,5 +14,3 @@ fields:
 - type: boolean
   name: draft
   label: draft
-pages:
-- content/posts/test.md
