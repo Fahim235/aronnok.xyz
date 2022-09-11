@@ -15,4 +15,5 @@ fields:
   name: draft
   label: draft
 pages:
+- content/posts/ইনসাইড-আউট-এপ্রোচ.md
 - content/posts/প্যারাডাইম-ও-প্যারাডাইম-শিফট.md
