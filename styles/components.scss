@@ -1,0 +1,95 @@
+b,
+strong {
+  @apply font-semibold;
+}
+.container {
+  @apply mx-auto px-4;
+}
+
+// section style
+.section {
+  @apply py-16;
+  &-title {
+    @apply text-h3 capitalize;
+    strong {
+      @apply relative inline-block pr-16;
+      &::before {
+        content: "";
+        @apply absolute right-0 top-1/2 w-12 border-t-2 border-black dark:invert;
+      }
+    }
+    &-center strong {
+      @apply pr-0;
+      &::before {
+        @apply hidden;
+      }
+    }
+  }
+}
+
+// post style
+.post-card {
+  @apply relative rounded-xl border transition duration-200 ease-out dark:border-darkmode-border;
+  &::after,
+  &::before {
+    content: "";
+    @apply absolute -rotate-45 border bg-white dark:border-darkmode-border dark:bg-darkmode-body;
+    transition: 0.1s;
+    height: 18px;
+    width: 18px;
+    top: calc(50% - 9px);
+  }
+  &::before {
+    left: -9px;
+    @apply border-l-0 border-t-0;
+    border-bottom-right-radius: 4px;
+  }
+  &::after {
+    right: -9px;
+    @apply border-r-0 border-b-0;
+    border-top-left-radius: 4px;
+  }
+  &:hover {
+    @apply border-dark dark:border-slate-600;
+    &::after,
+    &::before {
+      @apply border-dark bg-white dark:border-slate-600 dark:bg-darkmode-body;
+    }
+  }
+}
+
+// form style
+.form-inputs * {
+  @apply mb-5 leading-10;
+}
+
+.social-icons {
+  li {
+    @apply mx-2 inline-block last:mr-0;
+    a {
+      @apply relative z-10 block h-[48px] w-[48px] overflow-hidden rounded-full bg-primary text-center text-white transition-all delay-100 after:absolute after:top-[2px] after:left-[2px] after:-z-10 after:h-[44px] after:w-[44px] after:scale-0 after:rounded-full after:bg-white after:transition-all after:duration-[250ms] hover:text-primary hover:after:scale-100 dark:invert;
+      svg {
+        @apply m-auto h-9;
+      }
+    }
+  }
+}
+
+// svg animation
+.animate-svg {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+}
+.triggerAnimation .animate-svg {
+  animation: dash 4s ease forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+// content style
+.content {
+  @apply prose max-w-none dark:prose-invert;
+}

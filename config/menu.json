@@ -1,5 +1,5 @@
 {
-  "header": [
+  "main": [
     {
       "name": "Home",
       "url": "/"
@@ -11,10 +11,6 @@
     {
       "name": "My Blogs",
       "url": "/posts"
-    },
-    {
-      "name": "Contact Me",
-      "url": "/contact"
     }
   ],
   "footer": [
