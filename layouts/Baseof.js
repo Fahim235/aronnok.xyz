@@ -5,7 +5,6 @@ import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import CallToAction from "./components/CTA";
 
 const Base = ({
   title,
@@ -100,7 +99,7 @@ const Base = ({
       <Header toggle={toggle} isOpen={isOpen} />
       {/* main site */}
       <main className="mx-auto max-w-[1460px]">{children}</main>
-      {isCta && <CallToAction />}
+      {/* {isCta && <CallToAction />} */}
       <Footer />
     </>
   );
