@@ -15,5 +15,6 @@ fields:
   name: draft
   label: draft
 pages:
+- content/posts/the-character-ethic-vs-the-personality-ethic.md
 - content/posts/ইনসাইড-আউট-এপ্রোচ.md
 - content/posts/প্যারাডাইম-ও-প্যারাডাইম-শিফট.md
