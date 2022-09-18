@@ -1,7 +1,8 @@
 ---
 title: The Character Ethic vs The Personality Ethic
 date: 2022-09-22T00:00:00+06:00
-categories: []
+categories:
+- Productivity
 draft: false
 
 ---
